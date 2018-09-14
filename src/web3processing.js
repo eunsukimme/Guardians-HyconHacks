@@ -64,7 +64,57 @@ const addUser = (_minType, _name) => {
         .on('error', function(error){
             console.log(error);
         })
-}
+};
+
+const getAllContentMatchWithUser = () => {
+    let _type = currentUser.minType;
+    // 컨텐트들의 id가 담긴 배열
+    let contentsIdx;
+    Promise.resolve(getContentByType(_type)).then(function(result){
+        contentsIdx = result;
+    });
+    for(let i = 0 ; i < contentsIdx.length ; i++){
+        Promise.resolve(getContent(contentsIdx[i])).then(function(content){
+            console.log(content);
+        });
+    }
+};
+
+const getContentByType = (_type) => {
+    return Guardian.methods.getContentByType(_type).call()
+        .then(function(result){
+            // result는 동일 타입의 컨텐츠의 id 배열
+            return result;
+        })
+};
+
+const getContent = (_id) => {
+    return Guardian.methods.getContent(_id).call().then(function(content){
+        return content;
+    })
+};
+
+const makeContent = (_type, _title, _url) => {
+    return Guardian.methods.makeContent(_type, _title, _url)
+        .send({from: userAccount})
+        .on("receipt", function(receipt){
+            console.log("Successfully uploaded a new content!");
+        })
+        .on("error", function(error){
+            console.log(error);
+        })
+};
+
+const deleteContent = (_id) => {
+    return Guardian.methods.deleteContent(_id)
+        .send({from: userAccount})
+        .on("receipt", function(receipt){
+            console.log("Successfully deleted the content!");
+        })
+        .on("error", function(error){
+            console.log(error);
+        })
+};
 
 // 페이지가 로드 될 떄 마다 실행
 window.addEventListener('load', function() {

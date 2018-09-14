@@ -33,7 +33,7 @@ contract GuardianContent is Guardian {
     }
 
     /// @dev 주어진 type에 해당하는 컨텐츠들의 id들을 반환
-    function getContentByType(uint8 _type) public returns(uint[] _idx){
+    function getContentByType(uint8 _type) view public returns(uint[] _idx){
         uint idxCount = 0;
         // 순차 탐색하며 주어진 타입과 동일한 컨텐츠 개수 셈
         for(uint i = 0 ; i < contentId ; i++){
