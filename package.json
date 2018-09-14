@@ -1,0 +1,23 @@
+{
+  "name": "guardians",
+  "version": "1.0.0",
+  "description": "Supporting fast and convenient service platform for minority groups",
+  "main": "index.js",
+  "dependencies": {
+    "web3": "github:ethereum/web3.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eunsukimme/Guardians-HyconHacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eunsukimme/Guardians-HyconHacks/issues"
+  },
+  "homepage": "https://github.com/eunsukimme/Guardians-HyconHacks#readme"
+}

@@ -19,7 +19,8 @@
        registerButton = ()=>{
            let name = $('#usr').val();
            let type = $('#sel1').val();
-           console.log(name+type);
+           //console.log(name+type);
+           addUser(type, name);
         }
     </script>
 </head>
@@ -54,11 +55,12 @@
                     <label for="sel1" style="float: left; color:white; font-size: 22px; margin-left: 30%;">종류:</label>
                     <br/>
                     <select class="form-control" id="sel1" style="width: 30%; margin-left: 24%;">
-                        <option style="color: black">장애인</option>
-                        <option style="color: black">아동</option>
-                        <option style="color: black">노인</option>
-                        <option style="color: black">저소득층</option>
-                        <option style="color: black">여성</option>
+                        <option style="color: black" value="0">여성</option>
+                        <option style="color: black" value="1">아동</option>
+                        <option style="color: black" value="2">노인</option>
+                        <option style="color: black" value="3">장애인</option>
+                        <option style="color: black" value="4">저소득층</option>
+
                     </select>
                 </div>
                 <br/>
@@ -68,6 +70,9 @@
         </div>
     </div>
 </section>
-
+<script language="javascript" type="text/javascript" src="../src/web3.min.js"></script>
+<script src="../src/contractABI.js"></script>
+<script src="../src/web3processing.js"></script>
+<script src="../src/main.js"></script>
 </body>
 </html>
