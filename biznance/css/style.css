@@ -41,7 +41,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700|Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700|Popins:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .list {
@@ -69,13 +69,13 @@ a:hover, a:focus {
 body {
     line-height: 24px;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     color: #777777;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
 
@@ -101,6 +101,7 @@ button:focus {
 }
 
 .mt-25 {
+
     margin-top: 25px;
 }
 
@@ -126,7 +127,7 @@ button:focus {
 }
 
 .main_title h2 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 36px;
     color: #222222;
     margin-bottom: 12px;
@@ -134,7 +135,7 @@ button:focus {
 
 .main_title p {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     line-height: 24px;
     color: #777777;
@@ -168,7 +169,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-    font: 500 12px/100px "Roboto", sans-serif;
+    font: 500 12px/100px "Poppins", sans-serif;
     text-transform: uppercase;
     color: #222222;
     padding: 0px;
@@ -354,7 +355,7 @@ button:focus {
     background: #f9f9ff;
     padding: 0px 19px;
     font-size: 12px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #777777;
     -webkit-transition: all 300ms linear 0s;
@@ -377,7 +378,7 @@ button:focus {
     background: #8d83ff;
     padding: 0px 19px;
     font-size: 12px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #fff;
     -webkit-transition: all 300ms linear 0s;
@@ -399,7 +400,7 @@ button:focus {
     border-radius: 3px;
     line-height: 28px;
     font-size: 12px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     padding-left: 19px;
     padding-right: 36px;
@@ -443,8 +444,8 @@ button:focus {
 }
 
 .home_banner_area .banner_inner .overlay {
-    background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
     position: absolute;
+    background: lightgrey url(../img/banner/home-banner.jpg) no-repeat scroll center center;
     left: 0;
     right: 0;
     top: 0;
@@ -453,13 +454,110 @@ button:focus {
     z-index: -1;
 }
 
+.date .gad_btn {
+    color: #fff;
+}
+
+.date {
+    margin-bottom: 15px;
+}
+
+.date a {
+    color: #777777;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 15px;
+}
+
+.date a i {
+    padding-right: 8px;
+}
+
+.date a:last-child {
+    margin-right: 0px;
+}
+
+.gad_btn {
+    background: #ff1857;
+    color: #fff;
+    display: inline-block;
+    padding: 0px 20px;
+    line-height: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.choice_inner {
+    margin-bottom: -30px;
+}
+
+.choice_item {
+    margin-bottom: 30px;
+}
+
+.choice_item .choice_text {
+    margin-top: 20px;
+}
+
+.choice_item .choice_text h4 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+.choice_item .choice_text h4:hover {
+    color: #ff1857;
+}
+
+.choice_item .choice_text p {
+    margin-bottom: 0px;
+}
+
+.choice_text {
+    margin-top: 20px;
+}
+
+.choice_text h4 {
+    font-size: 18px;
+    line-height: 27px;
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+.choice_text h4:hover {
+    color: #ff1857;
+}
+
+.choice_text p {
+    margin-bottom: 0px;
+}
+
+.small .choice_text h4 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
 .home_banner_area .banner_inner .banner_content {
     color: #fff;
 }
 
 .home_banner_area .banner_inner .banner_content h5 {
     text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: normal;
     margin-bottom: 0px;
@@ -468,7 +566,7 @@ button:focus {
 
 .home_banner_area .banner_inner .banner_content h3 {
     font-size: 36px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 45px;
@@ -478,7 +576,7 @@ button:focus {
 .home_banner_area .banner_inner .banner_content p {
     font-size: 14px;
     line-height: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: normal;
     max-width: 500px;
     margin: auto;
@@ -527,7 +625,7 @@ button:focus {
 .blog_banner .banner_inner .blog_b_text h2 {
     font-size: 60px;
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 66px;
     margin-bottom: 15px;
 }
@@ -589,7 +687,7 @@ button:focus {
 .banner_area .banner_inner .banner_content h2 {
     color: #fff;
     font-size: 48px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 0px;
     font-weight: 500;
 }
@@ -597,7 +695,7 @@ button:focus {
 .banner_area .banner_inner .banner_content .page_link a {
     font-size: 14px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-right: 32px;
     position: relative;
     text-transform: uppercase;
@@ -729,7 +827,7 @@ button:focus {
 
 .causes_item .causes_text h4 {
     color: #222222;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -756,7 +854,7 @@ button:focus {
     line-height: 50px;
     background: #8d83ff;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-weight: 500;
 }
@@ -915,7 +1013,7 @@ button:focus {
 }
 
 .blog_info .post_tag a {
-    font: 300 14px/21px "Roboto", sans-serif;
+    font: 300 14px/21px "Poppins", sans-serif;
     color: #222222;
 }
 
@@ -928,7 +1026,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a {
-    font: 300 14px/20px "Roboto", sans-serif;
+    font: 300 14px/20px "Poppins", sans-serif;
     color: #777777;
     vertical-align: middle;
     padding-bottom: 12px;
@@ -1666,35 +1764,35 @@ button:focus {
     box-shadow: none;
     padding: 0px 15px;
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999;
 }
 
 .reservation_form .form-group input.placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999;
 }
 
 .reservation_form .form-group input:-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999;
 }
 
 .reservation_form .form-group input::-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999;
 }
 
 .reservation_form .form-group input::-webkit-input-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999;
 }
@@ -1710,7 +1808,7 @@ button:focus {
 
 .reservation_form .form-group .res_select .current {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #999999;
 }
@@ -1758,7 +1856,6 @@ button:focus {
 .contact_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
-    color: "Roboto", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
     color: #222222;
@@ -1783,7 +1880,7 @@ button:focus {
     line-height: 26px;
     color: #999;
     border: 1px solid #eeeeee;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     border-radius: 0px;
     padding-left: 20px;
 }
@@ -1860,7 +1957,7 @@ button:focus {
     text-align: center;
     color: #8d83ff;
     padding-bottom: 10px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .modal-message .modal-dialog .modal-content .modal-header p {
@@ -1899,7 +1996,7 @@ button:focus {
 .h_form_inner h4 {
     color: #fff;
     font-size: 36px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     padding-bottom: 70px;
     padding-top: 120px;
 }
@@ -1921,34 +2018,34 @@ button:focus {
     padding: 0px 15px;
     line-height: 50px;
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
 }
 
 .home_contact_form .form-group input.placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     opacity: .5;
 }
 
 .home_contact_form .form-group input:-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     opacity: .5;
 }
 
 .home_contact_form .form-group input::-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     opacity: .5;
 }
 
 .home_contact_form .form-group input::-webkit-input-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     opacity: .5;
 }
@@ -1965,35 +2062,35 @@ button:focus {
     box-shadow: none;
     padding: 15px 15px;
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     resize: none;
 }
 
 .home_contact_form .form-group textarea.placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     opacity: .5;
 }
 
 .home_contact_form .form-group textarea:-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     opacity: .5;
 }
 
 .home_contact_form .form-group textarea::-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     opacity: .5;
 }
 
 .home_contact_form .form-group textarea::-webkit-input-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #fff;
     opacity: .5;
 }
@@ -3497,7 +3594,7 @@ h6 {
     background: #8d83ff;
     padding: 0px 50px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 48px;
@@ -3523,7 +3620,7 @@ h6 {
     background: #8d83ff;
     padding: 0px 32px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 38px;
@@ -3587,7 +3684,7 @@ h6 {
     background: #f9f9ff;
     padding: 0px 35px;
     color: #222222;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 500;
     line-height: 34px;
@@ -3678,7 +3775,7 @@ h6 {
 .offer_title h5 {
     font-size: 14px;
     text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     letter-spacing: 2.1px;
     color: #222222;
     margin-bottom: 15px;
@@ -3687,7 +3784,7 @@ h6 {
 .offer_title p {
     font-size: 24px;
     line-height: 36px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777;
     font-weight: normal;
     margin-bottom: 0px;
@@ -3751,7 +3848,7 @@ h6 {
     color: #222222;
     font-size: 18px;
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin-bottom: 25px;
 }
 
@@ -3802,7 +3899,7 @@ h6 {
 
 .isotope_fillter .gallery_filter li a {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777;
     -webkit-transition: all 300ms linear 0s;
     -o-transition: all 300ms linear 0s;
@@ -4057,7 +4154,7 @@ h6 {
 .team_item .team_name h4 {
     margin-bottom: 5px;
     color: #222222;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 18px;
     -webkit-transition: all 300ms linear 0s;
@@ -4071,7 +4168,7 @@ h6 {
 
 .team_item .team_name p {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #777777;
     margin-bottom: 0px;
 }
