@@ -23,7 +23,7 @@
 			color: #fff;
 			h5{
 				text-transform: uppercase;
-				font-family: $rob;
+				font-family: "Poppins", sans-serif;
 				font-size: 14px;
 				font-weight: normal;
 				margin-bottom: 0px;
@@ -31,7 +31,7 @@
 			}
 			h3{
 				font-size: 36px;
-				font-family: $rob;
+				font-family: "Poppins", sans-serif;
 				font-weight: bold;
 				text-transform: uppercase;
 				line-height: 45px;
@@ -40,7 +40,7 @@
 			p{
 				font-size: 14px;
 				line-height: 24px;
-				font-family: $rob;
+				font-family: $pop;
 				font-weight: normal;
 				max-width: 500px;
 				margin: auto;
@@ -85,7 +85,7 @@
 			h2{
 				font-size: 60px;
 				font-weight: 500;
-				font-family: $rob;
+				font-family: $pop;
 				line-height: 66px;
 				margin-bottom: 15px;
 			}
@@ -133,7 +133,7 @@
 			h2{
 				color: #fff;
 				font-size: 48px;
-				font-family: $rob;
+				font-family: $pop;
 				margin-bottom: 0px;
 				font-weight: 500;
 			}
@@ -141,7 +141,7 @@
 				a{
 					font-size: 14px;
 					color: #fff;
-					font-family: $rob;
+					font-family: $pop;
 					margin-right: 32px;
 					position: relative;
 					text-transform: uppercase;
