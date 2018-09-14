@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="css/responsive.css">
     <script type="text/javascript">
         registerButton = () => {
-            let name = $('#usr').val();
+            let title = $('#title').val();
+            let url = $('#url').val();
             let type = $('#sel1').val();
             //console.log(name+type);
-            addUser(type, name);
+            makeContent(type, title, url);
         }
     </script>
 </head>
@@ -47,8 +48,8 @@
                 <div class="form-group" style="margin-top: 20px">
                     <!--<label for="usr" style="float: left; color: white; font-size: 22px;">이름:</label>-->
                     <br/>
-                    <input type="text" class="form-control" id="usr" style="width: 30%; margin-left: 34%;"
-                           placeholder="이름">
+                    <input type="text" class="form-control" id="title" style="width: 30%; margin-left: 34%;"
+                           placeholder="제목">
                     <br/>
                     <br/>
                     <input type="text" class="form-control" id="url" style="width: 30%; margin-left: 34%;"
