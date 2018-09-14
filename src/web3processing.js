@@ -8,41 +8,47 @@ const startApp = () => {
     let checkAccountChange = setInterval(async function() {
         // 계정이 바뀌었는지 확인
         let currentAccount = await web3.eth.getAccounts().then(function(array) { return array[0] });
-        if (currentAccount !== userAccount) {
-            userAccount = currentAccount;
-            // 새 계정에 대한 UI로 업데이트하기 위한 함수 호출
-            //alert('Your account is ' + userAccount);
-            // 해당 계정의 유저가 이미 존재하는지 확인
-            //console.log(Guardian.methods.checkUser(userAccount).call());
-            console.log(checkUser());
-            //console.log(isUserExist);
-            // 유저가 존재한다면 환영한다
-            if(checkUser()){
-                console.log(getUser());
-                //console.log(`Hello, ${user.name}!`);
-            } else {
-                // 가입을 권유한다
-                console.log('You should create a new account');
-            }
-
-        }
+        checkCurrentUserAccount(currentAccount);
     }, 1000);
 };
 
+// 현재 account가 이미 존재하는 사용자인지 확인
+const checkCurrentUserAccount = (_currentAccount) => {
+    if (_currentAccount !== userAccount) {
+        userAccount = _currentAccount;
+        // 새 계정에 대한 UI로 업데이트하기 위한 함수 호출
+        let isUserExist;        // 유저의 존재 유무
+        Promise.resolve(checkUser()).then(result => {
+            isUserExist = result;
+            // 유저가 존재한다면
+            if (isUserExist) {
+                // 환영한다
+                Promise.resolve(getUser()).then(user => {
+                    console.log(`Hello, ${user.name}`);
+                });
+            } else {
+                // 유저가 존재하지 않는다면 가입을 권유한다
+                console.log('You should create a new account');
+            }
+        });
+    }
+}
+
+// 컨트랙트 메소드 호출
 const checkUser = () => {
     return Guardian.methods.checkUser(userAccount).call().then((result)=> {
-        console.log(result);
         return result;
     })
 }
 
+// 컨트랙트 메소드 호출
 const getUser = () => {
     return Guardian.methods.getUser(userAccount).call().then(function(result){
-        console.log(result);
         return result;
     })
 }
 
+// 컨트랙트 메소드 전송
 const addUser = (_minType, _name) => {
     console.log('registering new user on blockchain...');
 
@@ -57,6 +63,7 @@ const addUser = (_minType, _name) => {
         })
 }
 
+// 페이지가 로드 될 떄 마다 실행
 window.addEventListener('load', function() {
     if(typeof web3 !== 'undefined') {
         //alert('메타마스크가 주입되었습니다');
