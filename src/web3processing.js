@@ -3,14 +3,16 @@ let userAccount;
 let currentUser;
 
 const startApp = () => {
-    const contractAddress = '0xc5e09467323b84547a346a2a35fac33eb6e1d9ad';
+    const contractAddress = '0xcf99c96eab2d4735fd94ef0ddc783017db29ed83';
     Guardian = new web3.eth.Contract(contractABI, contractAddress);
 
     let checkAccountChange = setInterval(async function() {
         // 계정이 바뀌었는지 확인
         let currentAccount = await web3.eth.getAccounts().then(function(array) { return array[0] });
         checkCurrentUserAccount(currentAccount);
-    }, 1000);
+
+    }, 100);
+
 };
 
 // 현재 account가 이미 존재하는 사용자인지 확인
@@ -18,7 +20,9 @@ const checkCurrentUserAccount = (_currentAccount) => {
     if (_currentAccount !== userAccount) {
         userAccount = _currentAccount;
         // 새 계정에 대한 UI로 업데이트하기 위한 함수 호출
-        let isUserExist;        // 유저의 존재 유무
+        loadContents();
+        // 유저의 존재 유무
+        let isUserExist;
         Promise.resolve(checkUser()).then(result => {
             isUserExist = result;
             // 유저가 존재한다면
@@ -28,10 +32,11 @@ const checkCurrentUserAccount = (_currentAccount) => {
                     currentUser = user;
                     //alert(currentUser.name);
                     console.log(`Hello, ${user.name}`);
+                    location.replace('mypage.html');
                 });
             } else {
                 // 유저가 존재하지 않는다면 가입을 권유한다
-                console.log('You should create a new account');
+                alert('You should create a new account');
             }
         });
     }
@@ -66,19 +71,32 @@ const addUser = (_minType, _name) => {
         })
 };
 
-const getAllContentMatchWithUser = () => {
-    let _type = currentUser.minType;
+const getAllContentMatchWithUser = async () => {
+    let _type;
+    await Promise.resolve(getUser()).then(user => {
+        _type = user.minType;
+    });
     // 컨텐트들의 id가 담긴 배열
     let contentsIdx;
-    Promise.resolve(getContentByType(_type)).then(function(result){
+    await Promise.resolve(getContentByType(_type)).then(function(result){
+        console.log(_type);
+        console.log(result);
         contentsIdx = result;
     });
+    clearContent();
     for(let i = 0 ; i < contentsIdx.length ; i++){
         Promise.resolve(getContent(contentsIdx[i])).then(function(content){
             console.log(content);
+            updateContent(`<div class="content-card">
+    <p>content-id: ${content.id}</p>
+    <h2>제목: ${content.title}</h2>
+    <p>url: ${content.url}</p>
+    <p>타입: ${content.minType}</p>
+</div>`);
         });
     }
 };
+
 
 const getContentByType = (_type) => {
     return Guardian.methods.getContentByType(_type).call()

@@ -17,6 +17,18 @@ const contractABI = [
         "type": "event"
     },
     {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "previousOwner",
+                "type": "address"
+            }
+        ],
+        "name": "OwnershipRenounced",
+        "type": "event"
+    },
+    {
         "constant": false,
         "inputs": [
             {
@@ -39,16 +51,40 @@ const contractABI = [
         "type": "function"
     },
     {
-        "anonymous": false,
+        "constant": false,
         "inputs": [
             {
-                "indexed": true,
-                "name": "previousOwner",
-                "type": "address"
+                "name": "_id",
+                "type": "uint256"
             }
         ],
-        "name": "OwnershipRenounced",
-        "type": "event"
+        "name": "deleteContent",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_type",
+                "type": "uint8"
+            },
+            {
+                "name": "_title",
+                "type": "string"
+            },
+            {
+                "name": "_url",
+                "type": "string"
+            }
+        ],
+        "name": "makeContent",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
     },
     {
         "constant": false,
@@ -94,6 +130,16 @@ const contractABI = [
             {
                 "name": "name",
                 "type": "string"
+            },
+            {
+                "components": [
+                    {
+                        "name": "ids",
+                        "type": "uint256[]"
+                    }
+                ],
+                "name": "myList",
+                "type": "tuple"
             }
         ],
         "payable": false,
@@ -113,6 +159,107 @@ const contractABI = [
             {
                 "name": "",
                 "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "contentId",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "contents",
+        "outputs": [
+            {
+                "name": "id",
+                "type": "uint256"
+            },
+            {
+                "name": "minType",
+                "type": "uint8"
+            },
+            {
+                "name": "title",
+                "type": "string"
+            },
+            {
+                "name": "url",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_id",
+                "type": "uint256"
+            }
+        ],
+        "name": "getContent",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "name": "id",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "minType",
+                        "type": "uint8"
+                    },
+                    {
+                        "name": "title",
+                        "type": "string"
+                    },
+                    {
+                        "name": "url",
+                        "type": "string"
+                    }
+                ],
+                "name": "",
+                "type": "tuple"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_type",
+                "type": "uint8"
+            }
+        ],
+        "name": "getContentByType",
+        "outputs": [
+            {
+                "name": "_idx",
+                "type": "uint256[]"
             }
         ],
         "payable": false,
@@ -142,6 +289,16 @@ const contractABI = [
                     {
                         "name": "name",
                         "type": "string"
+                    },
+                    {
+                        "components": [
+                            {
+                                "name": "ids",
+                                "type": "uint256[]"
+                            }
+                        ],
+                        "name": "myList",
+                        "type": "tuple"
                     }
                 ],
                 "name": "_minor",
@@ -187,6 +344,16 @@ const contractABI = [
             {
                 "name": "name",
                 "type": "string"
+            },
+            {
+                "components": [
+                    {
+                        "name": "ids",
+                        "type": "uint256[]"
+                    }
+                ],
+                "name": "myList",
+                "type": "tuple"
             }
         ],
         "payable": false,
