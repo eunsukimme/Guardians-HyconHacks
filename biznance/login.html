@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Bizance Multi</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript">
+       registerButton = ()=>{
+           let name = $('#usr').val();
+           let type = $('#sel1').val();
+           console.log(name+type);
+        }
+    </script>
+</head>
+<body>
+<header class="header_area">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container box_1620">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <h1>Guardians</h1>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                </div>
+                <!--asdasd-->
+            </div>
+        </nav>
+    </div>
+</header>
+<section class="banner_area" >
+    <div class="banner_inner d-flex align-items-center" style="height: 500px">
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>회원가입</h2>
+                <div class="form-group" style="margin-top: 20px">
+                    <!--<label for="usr" style="float: left; color: white; font-size: 22px;">이름:</label>-->
+                    <br/>
+                    <input type="text" class="form-control" id="usr" style="width: 30%; margin-left: 34%;" placeholder="이름">
+                </div>
+                <br/>
+                <br/>
+                <div class="form-group">
+                    <label for="sel1" style="float: left; color:white; font-size: 22px; margin-left: 30%;">종류:</label>
+                    <br/>
+                    <select class="form-control" id="sel1" style="width: 30%; margin-left: 24%;">
+                        <option style="color: black">장애인</option>
+                        <option style="color: black">아동</option>
+                        <option style="color: black">노인</option>
+                        <option style="color: black">저소득층</option>
+                        <option style="color: black">여성</option>
+                    </select>
+                </div>
+                <br/>
+                <br/>
+                <button type="button" id="signUp" class="btn btn-primary btn-lg" onclick="registerButton()">Large</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
