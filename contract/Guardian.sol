@@ -7,8 +7,8 @@ contract Guardian is Ownable {
     using SafeMath for uint;
     using SafeMath for uint8;
 
-    /// @dev 여성(0), 아동(1), 노인(2), 장애인(3), 저소득층(4)
-    enum minorType { WOMAN, CHILD, ELDER, DISABLED, LOWINCOME}
+    /// @dev 여성(0), 아동(1), 노인(2), 장애인(3), 저소득층(4), 공무원(5)
+    enum minorType { WOMAN, CHILD, ELDER, DISABLED, LOWINCOME, AGENT}
 
     /// @dev 사용자가 신청한 복지 혜택 리스트
     struct MyContentList {

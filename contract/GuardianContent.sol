@@ -32,6 +32,32 @@ contract GuardianContent is Guardian {
         return contents[_id];
     }
 
+    /// @dev 주어진 type에 해당하는 컨텐츠들의 id들을 반환
+    function getContentByType(uint8 _type) public returns(uint[] _idx){
+        uint idxCount = 0;
+        // 순차 탐색하며 주어진 타입과 동일한 컨텐츠 개수 셈
+        for(uint i = 0 ; i < contentId ; i++){
+            if(contents[i].minType == _type){
+                idxCount = idxCount.add(1);
+            }
+        }
+        // 고정 길이 배열 할당
+        uint[] memory idx = new uint[](idxCount);
+        uint index = 0;
+        // push와 같은 기능 구현
+        for(uint ind = 0 ; ind < contentId ; ind++){
+            if(contents[ind].minType == _type){
+                idx[index] = contents[ind].id;
+                index = index.add(1);
+            }
+        }
+        return idx;
+    }
+
+    /// @dev 주어진 id에 해당하는 컨텐츠 삭제
+    function deleteContent(uint _id) public {
+        delete contents[_id];
+    }
 
 
 }
