@@ -1,8 +1,9 @@
 let Guardian;
 let userAccount;
+let currentUser;
 
 const startApp = () => {
-    const contractAddress = '0x0287b9f53ba465e4a2e3f59d78e26ac90d9c504f';
+    const contractAddress = '0xc5e09467323b84547a346a2a35fac33eb6e1d9ad';
     Guardian = new web3.eth.Contract(contractABI, contractAddress);
 
     let checkAccountChange = setInterval(async function() {
@@ -24,6 +25,8 @@ const checkCurrentUserAccount = (_currentAccount) => {
             if (isUserExist) {
                 // 환영한다
                 Promise.resolve(getUser()).then(user => {
+                    currentUser = user;
+                    //alert(currentUser.name);
                     console.log(`Hello, ${user.name}`);
                 });
             } else {
@@ -74,4 +77,5 @@ window.addEventListener('load', function() {
     }
 
     startApp();
-})
+});
+
