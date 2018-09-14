@@ -16,11 +16,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script type="text/javascript">
-       registerButton = ()=>{
-           let name = $('#usr').val();
-           let type = $('#sel1').val();
-           //console.log(name+type);
-           addUser(type, name);
+        registerButton = () => {
+            let name = $('#usr').val();
+            let type = $('#sel1').val();
+            //console.log(name+type);
+            addUser(type, name);
         }
     </script>
 </head>
@@ -39,33 +39,34 @@
         </nav>
     </div>
 </header>
-<section class="banner_area" >
+<section class="banner_area">
     <div class="banner_inner d-flex align-items-center" style="height: 500px">
         <div class="container">
             <div class="banner_content text-center">
-                <h2>회원가입</h2>
+                <h2>글 등록</h2>
                 <div class="form-group" style="margin-top: 20px">
                     <!--<label for="usr" style="float: left; color: white; font-size: 22px;">이름:</label>-->
                     <br/>
-                    <input type="text" class="form-control" id="usr" style="width: 30%; margin-left: 34%;" placeholder="이름">
-                </div>
-                <br/>
-                <br/>
-                <div class="form-group">
-                    <label for="sel1" style="float: left; color:white; font-size: 22px; margin-left: 30%;">종류:</label>
+                    <input type="text" class="form-control" id="usr" style="width: 30%; margin-left: 34%;"
+                           placeholder="이름">
                     <br/>
-                    <select class="form-control" id="sel1" style="width: 30%; margin-left: 24%;">
+                    <br/>
+                    <input type="text" class="form-control" id="url" style="width: 30%; margin-left: 34%;"
+                           placeholder="url">
+                    <br/>
+                    <br/>
+                    <select class="form-control" id="sel1" style="width: 30%; margin-left: 34%;">
                         <option style="color: black" value="0">여성</option>
                         <option style="color: black" value="1">아동</option>
                         <option style="color: black" value="2">노인</option>
                         <option style="color: black" value="3">장애인</option>
                         <option style="color: black" value="4">저소득층</option>
-
                     </select>
+                    <br/>
+                    <br/>
+                    <button type="button" id="signUp" class="btn btn-primary btn-lg" onclick="registerButton()">Large
+                    </button>
                 </div>
-                <br/>
-                <br/>
-                <button type="button" id="signUp" class="btn btn-primary btn-lg" onclick="registerButton()">Large</button>
             </div>
         </div>
     </div>

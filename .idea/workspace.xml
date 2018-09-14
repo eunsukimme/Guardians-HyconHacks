@@ -2,163 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70121d9b-e5e3-40bc-ab0b-6a96b47bb672" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/biznance/img/seaulgi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/biznance/write.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/css/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/css/normalize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/fonts/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/js/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/js/jquery-1.11.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/js/jquery.nav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/Biznance-doc/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/about-us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/banner/banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/banner/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/add.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/author.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/c1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/c4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/c5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/c6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/cat-post/cat-post-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/cat-post/cat-post-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/cat-post/cat-post-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/causes/causes-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/causes/causes-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/causes/causes-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/feature-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/latest-post/l-post-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/latest-post/l-post-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/latest-post/l-post-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/latest-post/l-post-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/main-blog/m-blog-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/main-blog/m-blog-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/main-blog/m-blog-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/main-blog/m-blog-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/main-blog/m-blog-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/next.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/popular-post/post1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/popular-post/post2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/popular-post/post3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/popular-post/post4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/post-img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/post-img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/blog/prev.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/a2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/disabled-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/disabled-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/f1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/f2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/f4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/f5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/f6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/f7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/f8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/g1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/g2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/g3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/g4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/g5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/g6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/g7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/g8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/primary-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/primary-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/success-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/success-radio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/user1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/elements/user2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/img/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/gallery/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/gallery/portfolio_details.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/gallery/project-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/gallery/project-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/gallery/project-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/gallery/project-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/gallery/project-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/gallery/project-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/instagram/Image-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/instagram/Image-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/instagram/Image-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/instagram/Image-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/instagram/Image-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/instagram/Image-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/instagram/Image-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/instagram/Image-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/offer/offer-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/offer/offer-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/offer/offer-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/team/team-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/team/team-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/team/team-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/img/team/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biznance/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biznance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biznance/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/mypage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/portfolio-details.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/biznance/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biznance/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/service.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biznance/single-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/single-blog.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -173,9 +23,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home-banner.jpg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biznance/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biznance/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-714">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="write.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/biznance/write.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biznance/service.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biznance/single-blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="91" column="72" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-banner.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/biznance/img/banner/home-banner.jpg">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biznance/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mypage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/biznance/mypage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
@@ -189,8 +106,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>title</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -204,9 +127,13 @@
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/src/web3processing.js" />
         <option value="$PROJECT_DIR$/src/contractABI.js" />
-        <option value="$PROJECT_DIR$/biznance/mypage.html" />
-        <option value="$PROJECT_DIR$/biznance/single-blog.html" />
         <option value="$PROJECT_DIR$/biznance/index.html" />
+        <option value="$PROJECT_DIR$/biznance/blog.html" />
+        <option value="$PROJECT_DIR$/biznance/mypage.html" />
+        <option value="$PROJECT_DIR$/biznance/register.html" />
+        <option value="$PROJECT_DIR$/biznance/service.html" />
+        <option value="$PROJECT_DIR$/biznance/single-blog.html" />
+        <option value="$PROJECT_DIR$/biznance/write.html" />
       </list>
     </option>
   </component>
@@ -256,6 +183,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Worthit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -312,13 +240,22 @@
       <updated>1536901287967</updated>
       <workItem from="1536901289384" duration="22711000" />
     </task>
+    <task id="LOCAL-00001" summary="edit front">
+      <created>1536944755937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536944755937</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24258000" />
+    <option name="totallyTimeSpent" value="24774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="14" width="1096" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2495379" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -355,30 +292,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit front" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit front" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/biznance/img/elements/g7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/elements/g8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/elements/primary-check.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/elements/primary-radio.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/elements/success-check.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/elements/success-radio.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/biznance/img/elements/user1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -508,13 +431,61 @@
     <entry file="file://$PROJECT_DIR$/biznance/img/about-img.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9511" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/biznance/img/banner/home-banner.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/mypage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/single-blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="91" column="72" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
