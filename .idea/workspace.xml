@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df061bb4-841c-451e-bf5b-47319cc129f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/biznance/mypage2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AutoUserCheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loadAllContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biznance/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biznance/scss/breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/scss/breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biznance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biznance/mypage.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/mypage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biznance/mypage2.html" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/contentPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biznance/scss/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/biznance/scss/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contractABI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contractABI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/indexweb3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loadContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/loadMyList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web3processing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web3processing.js" afterDir="false" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,62 +27,41 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/biznance/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="46" column="18" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="46" selection-end-column="18" />
+            <state relative-caret-position="321">
+              <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biznance/register.html">
+      <file leaf-file-name="web3processing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/web3processing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="33" column="118" selection-start-line="33" selection-start-column="118" selection-end-line="33" selection-end-column="118" />
+            <state relative-caret-position="36">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="15" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#option#5;n#select#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#article#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mypage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biznance/mypage.html">
+      <file leaf-file-name="AutoUserCheck.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AutoUserCheck.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="68" column="14" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="68" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mypage2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biznance/mypage2.html">
+      <file leaf-file-name="loadAllContent.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/loadAllContent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#h1#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#aside#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -82,60 +69,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prodcut.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biznance/prodcut.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biznance/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="653" column="14" selection-start-line="653" selection-start-column="14" selection-end-line="653" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/biznance/blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="108" column="54" lean-forward="true" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#img#0;n#aside#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_blog.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biznance/scss/_blog.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="259" column="1" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="breadcrumb.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/biznance/scss/breadcrumb.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+            <state relative-caret-position="126">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -145,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -172,7 +107,6 @@
       <find>Large</find>
       <find>aside</find>
       <find>blog_de</find>
-      <find>banner_inner</find>
       <find>src</find>
       <find>team</find>
       <find>inner</find>
@@ -180,6 +114,7 @@
       <find>blog_area</find>
       <find>300</find>
       <find>.banner</find>
+      <find>banner_inner</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,21 +126,26 @@
         <option value="$PROJECT_DIR$/src/web3.min.js" />
         <option value="$PROJECT_DIR$/biznance/login.html" />
         <option value="$PROJECT_DIR$/biznance/portfolio-details.html" />
-        <option value="$PROJECT_DIR$/src/web3processing.js" />
-        <option value="$PROJECT_DIR$/src/contractABI.js" />
         <option value="$PROJECT_DIR$/biznance/service.html" />
         <option value="$PROJECT_DIR$/biznance/scss/_predefine.scss" />
         <option value="$PROJECT_DIR$/biznance/prodcut.html" />
         <option value="$PROJECT_DIR$/biznance/single-blog.html" />
-        <option value="$PROJECT_DIR$/biznance/mypage.html" />
         <option value="$PROJECT_DIR$/biznance/register.html" />
-        <option value="$PROJECT_DIR$/biznance/write.html" />
-        <option value="$PROJECT_DIR$/biznance/index.html" />
-        <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/biznance/mypage2.html" />
         <option value="$PROJECT_DIR$/biznance/scss/breadcrumb.scss" />
         <option value="$PROJECT_DIR$/biznance/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/biznance/write.html" />
+        <option value="$PROJECT_DIR$/biznance/mypage.html" />
+        <option value="$PROJECT_DIR$/src/contractABI.js" />
+        <option value="$PROJECT_DIR$/src/loadContent.js" />
+        <option value="$PROJECT_DIR$/src/loadAllContent.js" />
         <option value="$PROJECT_DIR$/biznance/blog.html" />
+        <option value="$PROJECT_DIR$/biznance/contentPage.html" />
+        <option value="$PROJECT_DIR$/biznance/scss/_blog.scss" />
+        <option value="$PROJECT_DIR$/src/web3processing.js" />
+        <option value="$PROJECT_DIR$/biznance/index.html" />
+        <option value="$PROJECT_DIR$/src/AutoUserCheck.js" />
       </list>
     </option>
   </component>
@@ -223,11 +163,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="27" />
-    <option name="y" value="142" />
-    <option name="width" value="1370" />
-    <option name="height" value="1044" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="100" />
+    <option name="y" value="146" />
+    <option name="width" value="1373" />
+    <option name="height" value="850" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,42 +180,29 @@
         <subPane>
           <expand>
             <path>
-              <item name="Guardians-HyconHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guardians-HyconHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="HYCON HACKS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HYCON HACKS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Guardians-HyconHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guardians-HyconHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="HYCON HACKS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HYCON HACKS" type="462c0819:PsiDirectoryNode" />
               <item name="biznance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Guardians-HyconHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guardians-HyconHacks" type="462c0819:PsiDirectoryNode" />
-              <item name="biznance" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guardians-HyconHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guardians-HyconHacks" type="462c0819:PsiDirectoryNode" />
-              <item name="biznance" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guardians-HyconHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guardians-HyconHacks" type="462c0819:PsiDirectoryNode" />
-              <item name="biznance" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="banner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Guardians-HyconHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guardians-HyconHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="HYCON HACKS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HYCON HACKS" type="462c0819:PsiDirectoryNode" />
               <item name="biznance" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Guardians-HyconHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Guardians-HyconHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="HYCON HACKS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HYCON HACKS" type="462c0819:PsiDirectoryNode" />
+              <item name="biznance" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HYCON HACKS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HYCON HACKS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -288,21 +215,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="home-&#9;FILE&#9;file://C:/Users/LeeSangHoon/Desktop/Guardians-HyconHacks/biznance/img/banner/home-banner.jpg&#10;setInte&#9;null&#9;null&#10;font-fa&#9;null&#9;null&#10;font&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../force" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\glafu\Desktop\김은수\Develop\HYCON HACKS\biznance" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\LeeSangHoon\Desktop\Guardians-HyconHacks\biznance\img\banner" />
       <recent name="C:\Users\LeeSangHoon\Desktop\Guardians-HyconHacks\biznance\img\blog" />
       <recent name="C:\Users\LeeSangHoon\Desktop\Guardians-HyconHacks\biznance" />
       <recent name="C:\Users\LeeSangHoon\Desktop\Guardians-HyconHacks\biznance\img" />
       <recent name="C:\Users\glafu\Desktop\김은수\Develop\HYCON HACKS\biznance\vendors" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\glafu\Desktop\김은수\Develop\HYCON HACKS\biznance" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.mypage.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/HYCON HACKS/biznance/index.html" />
     <configuration name="mypage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Guardians-HyconHacks/biznance/mypage.html" />
     <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="main.js" working-dir="$PROJECT_DIR$/src" />
@@ -328,8 +255,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.mypage.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.mypage.html" />
         <item itemvalue="Node.js.main.js" />
       </list>
     </recent_temporary>
@@ -357,19 +284,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45873000" />
+    <option name="totallyTimeSpent" value="53197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="81" y="118" width="1097" height="679" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24934895" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24930748" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32859176" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.3259362" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3281027" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -388,28 +314,10 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3259362" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32859176" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2495379" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.3259362" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32859176" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -421,73 +329,30 @@
     <MESSAGE value="edit front" />
     <option name="LAST_COMMIT_MESSAGE" value="edit front" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/main-blog/m-blog-5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/popular-post/post1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/popular-post/post2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/popular-post/post4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/add.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/author.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/feature-img1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/next.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/post-img1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/post-img2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/prev.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/offer/offer-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/team/team-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/team/team-2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/team/team-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/team/team-4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/add.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/author.png" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c1.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c2.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c3.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c4.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c5.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/c6.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/feature-img1.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/next.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/post-img1.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/post-img2.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/prev.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/offer/offer-2.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/team/team-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/team/team-2.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/team/team-3.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/team/team-4.jpg" />
     <entry file="file://$PROJECT_DIR$/biznance/service.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -516,35 +381,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/web3processing.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contractABI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3417" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/biznance/img/banner/home-banner.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/about-img.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/left-img.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/img/about-img.jpg" />
+    <entry file="file://$PROJECT_DIR$/biznance/img/left-img.jpg" />
     <entry file="file://$PROJECT_DIR$/biznance/img/favicon.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/img/logo.png" />
     <entry file="file://$PROJECT_DIR$/biznance/img/seaulgi2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/img/blog/choice/choice-3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/img/blog/choice/choice-3.jpg" />
     <entry file="file://$PROJECT_DIR$/biznance/img/blog/choice/choice-4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -565,77 +414,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/single-blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="126" selection-start-line="28" selection-start-column="126" selection-end-line="28" selection-end-column="126" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="33" column="118" selection-start-line="33" selection-start-column="118" selection-end-line="33" selection-end-column="118" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="33" column="118" selection-start-line="33" selection-start-column="118" selection-end-line="33" selection-end-column="118" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#option#5;n#select#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/biznance/prodcut.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="46" column="18" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/mypage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="68" column="14" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="68" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,40 +435,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/mypage2.html">
+    <entry file="file://$PROJECT_DIR$/biznance/single-blog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="-1778">
+          <caret line="28" column="126" selection-start-line="28" selection-start-column="126" selection-end-line="28" selection-end-column="126" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#a#0;n#h1#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/indexweb3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/mypage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loadMyList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#1;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#aside#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#aside#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/biznance/scss/_blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="259" column="1" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
+        <state relative-caret-position="484">
+          <caret line="392" column="28" selection-start-line="392" selection-start-column="28" selection-end-line="392" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/biznance/blog.html">
+    <entry file="file://$PROJECT_DIR$/biznance/contentPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="108" column="54" lean-forward="true" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
+        <state relative-caret-position="378">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#aside#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web3processing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#article#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contractABI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="350" column="5" lean-forward="true" selection-start-line="350" selection-start-column="5" selection-end-line="350" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="74" column="48" lean-forward="true" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/biznance/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h1#0;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loadAllContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AutoUserCheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
