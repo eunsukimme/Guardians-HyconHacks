@@ -6,9 +6,11 @@ const startApp = () => {
     const contractAddress = '0xcf99c96eab2d4735fd94ef0ddc783017db29ed83';
     Guardian = new web3.eth.Contract(contractABI, contractAddress);
 
-    let checkAccountChange = setInterval(async function() {
+    let checkAccountChange = setInterval(async function () {
         // 계정이 바뀌었는지 확인
-        let currentAccount = await web3.eth.getAccounts().then(function(array) { return array[0] });
+        let currentAccount = await web3.eth.getAccounts().then(function (array) {
+            return array[0]
+        });
         checkCurrentUserAccount(currentAccount);
     }, 100);
 
@@ -41,14 +43,14 @@ const checkCurrentUserAccount = (_currentAccount) => {
 
 // 컨트랙트 메소드 호출
 const checkUser = () => {
-    return Guardian.methods.checkUser(userAccount).call().then((result)=> {
+    return Guardian.methods.checkUser(userAccount).call().then((result) => {
         return result;
     })
 }
 
 // 컨트랙트 메소드 호출
 const getUser = () => {
-    return Guardian.methods.getUser(userAccount).call().then(function(result){
+    return Guardian.methods.getUser(userAccount).call().then(function (result) {
         return result;
     })
 }
@@ -59,11 +61,11 @@ const addUser = (_minType, _name) => {
 
     return Guardian.methods.addUser(userAccount, _minType, _name)
         .send({from: userAccount})
-        .on('receipt', function(receipt){
+        .on('receipt', function (receipt) {
             console.log('Successfully registered ' + _name + '!');
             location.reload();
         })
-        .on('error', function(error){
+        .on('error', function (error) {
             console.log(error);
         })
 };
@@ -75,22 +77,25 @@ const getAllContentMatchWithUser = async () => {
     });
     // 컨텐트들의 id가 담긴 배열
     let contentsIdx;
-    await Promise.resolve(getContentByType(_type)).then(function(result){
+    await Promise.resolve(getContentByType(_type)).then(function (result) {
         //console.log(_type);
         console.log(result);
         contentsIdx = result;
     });
 
-    for(let i = 0 ; i < contentsIdx.length ; i++){
-        Promise.resolve(getContent(contentsIdx[i])).then(function(content){
+    for (let i = 0; i < contentsIdx.length; i++) {
+        Promise.resolve(getContent(contentsIdx[i])).then(function (content) {
             console.log(content);
-            clearContent('blog_left_sidebar',i);
-            updateContent('blog_left_sidebar',i ,`<div class=blog-details>
-                                            <p>content-id: ${content.id}</p>
-                                            <a href=${content.url}><h2>${content.title}</h2></a>
-                                            <a href=${content.url} class=white_bg_btn>View More</a>
-                                            <p>타입: ${content.minType}</p>
-                                        </div>`);
+            updateContent('innerBlock', i, `<article class="row blog_item">
+    <div class="col-md-9">
+    <div class="blog_post">
+    <div class="blog_details">
+    <a href=${content.url}><h2>${content.title}</h2></a>
+<a href=${content.url} class=white_bg_btn>View More</a>
+</div>
+</div>
+</div>
+</article>`);
         });
     }
 };
@@ -98,14 +103,14 @@ const getAllContentMatchWithUser = async () => {
 
 const getContentByType = (_type) => {
     return Guardian.methods.getContentByType(_type).call()
-        .then(function(result){
+        .then(function (result) {
             // result는 동일 타입의 컨텐츠의 id 배열
             return result;
         })
 };
 
 const getContent = (_id) => {
-    return Guardian.methods.getContent(_id).call().then(function(content){
+    return Guardian.methods.getContent(_id).call().then(function (content) {
         return content;
     })
 };
@@ -113,10 +118,10 @@ const getContent = (_id) => {
 const makeContent = (_type, _title, _url) => {
     return Guardian.methods.makeContent(_type, _title, _url)
         .send({from: userAccount})
-        .on("receipt", function(receipt){
+        .on("receipt", function (receipt) {
             console.log("Successfully uploaded a new content!");
         })
-        .on("error", function(error){
+        .on("error", function (error) {
             console.log(error);
         })
 };
@@ -124,17 +129,17 @@ const makeContent = (_type, _title, _url) => {
 const deleteContent = (_id) => {
     return Guardian.methods.deleteContent(_id)
         .send({from: userAccount})
-        .on("receipt", function(receipt){
+        .on("receipt", function (receipt) {
             console.log("Successfully deleted the content!");
         })
-        .on("error", function(error){
+        .on("error", function (error) {
             console.log(error);
         })
 };
 
 // 페이지가 로드 될 떄 마다 실행
-window.addEventListener('load', function() {
-    if(typeof web3 !== 'undefined') {
+window.addEventListener('load', function () {
+    if (typeof web3 !== 'undefined') {
         //alert('메타마스크가 주입되었습니다');
         web3 = new Web3(web3.currentProvider);
     } else {
