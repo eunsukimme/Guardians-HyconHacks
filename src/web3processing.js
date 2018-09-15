@@ -3,7 +3,7 @@ let userAccount;
 let currentUser;
 
 const startApp = () => {
-    const contractAddress = '0xd0de5e00a38f5c2e3b7bb25c8ebbaba752937498';
+    const contractAddress = '0x7dd26263f95c006b9bc3e17a52681ac4cbca4a75';
     Guardian = new web3.eth.Contract(contractABI, contractAddress);
 
     let checkAccountChange = setInterval(async function () {
@@ -142,6 +142,7 @@ const makeContent = async (_type, _title, _url) => {
 
     await Promise.resolve(getUser()).then(user => {
         if(user.minType != 5){
+            console.log(user.minType);
             alert('Only public agent can upload content!');
             return;
         } else {
