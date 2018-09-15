@@ -1,5 +1,5 @@
 
-const updateContent = (locate, selected,body) => {
+const updateContent = (locate, body) => {
    $("."+locate).append(body);
 }
 

@@ -32,6 +32,20 @@ const contractABI = [
         "constant": false,
         "inputs": [
             {
+                "name": "_id",
+                "type": "uint256"
+            }
+        ],
+        "name": "addMyList",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
                 "name": "_userAccount",
                 "type": "address"
             },
@@ -130,16 +144,6 @@ const contractABI = [
             {
                 "name": "name",
                 "type": "string"
-            },
-            {
-                "components": [
-                    {
-                        "name": "ids",
-                        "type": "uint256[]"
-                    }
-                ],
-                "name": "myList",
-                "type": "tuple"
             }
         ],
         "payable": false,
@@ -291,14 +295,8 @@ const contractABI = [
                         "type": "string"
                     },
                     {
-                        "components": [
-                            {
-                                "name": "ids",
-                                "type": "uint256[]"
-                            }
-                        ],
                         "name": "myList",
-                        "type": "tuple"
+                        "type": "uint256[]"
                     }
                 ],
                 "name": "_minor",
@@ -344,16 +342,6 @@ const contractABI = [
             {
                 "name": "name",
                 "type": "string"
-            },
-            {
-                "components": [
-                    {
-                        "name": "ids",
-                        "type": "uint256[]"
-                    }
-                ],
-                "name": "myList",
-                "type": "tuple"
             }
         ],
         "payable": false,
