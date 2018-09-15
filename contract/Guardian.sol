@@ -18,13 +18,6 @@ contract Guardian is Ownable {
         uint[] myList;
     }
 
-    /// @dev 사회복지사 정보 구조체
-    struct Helper {
-        address helperAccount;
-        string name;
-        string contact;
-    }
-
     /// @dev 계정(키)과 사용자(값) 매핑
     mapping(address => Minority) public addressToMinority;
     /// @dev 사용자를 저장하는 배열

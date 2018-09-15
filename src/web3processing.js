@@ -3,7 +3,7 @@ let userAccount;
 let currentUser;
 
 const startApp = () => {
-    const contractAddress = '0xd0de5e00a38f5c2e3b7bb25c8ebbaba752937498';
+    const contractAddress = '0x3229cfdd62f8ff37aaa1d2a15cec504717fd8d0a';
     Guardian = new web3.eth.Contract(contractABI, contractAddress);
 
     let checkAccountChange = setInterval(async function () {
@@ -86,7 +86,7 @@ const getAllContentMatchWithUser = async () => {
     for (let i = 0; i < contentsIdx.length; i++) {
         Promise.resolve(getContent(contentsIdx[i])).then(function (content) {
             console.log(content);
-            updateContent('innerBlock', i, `<article class="row blog_item">
+            updateContent('innerBlock', `<article class="row blog_item">
     <div class="col-md-9">
     <div class="blog_post">
     <div class="blog_details">
@@ -110,7 +110,7 @@ const getContentByMyList = async () => {
     for(let i = 0 ; i < mylist.length ; i++){
         getContent(mylist[i]).then(content => {
             console.log(content);
-            updateContent('innerBlock', `<article class="row blog_item">
+            updateContent('innerBlock', `<article style="padding-left: 5%" class="blog_item" >
     <div class="col-md-9">
     <div class="blog_post">
     <div class="blog_details">
@@ -141,10 +141,8 @@ const getContent = (_id) => {
 const makeContent = async (_type, _title, _url) => {
 
     await Promise.resolve(getUser()).then(user => {
-        if(user.minType != 5){
-            alert('Only public agent can upload content!');
-            return;
-        } else {
+        console.log(user.minType);
+        if (user.minType == 5) {
             return Guardian.methods.makeContent(_type, _title, _url)
                 .send({from: userAccount})
                 .on("receipt", function (receipt) {
@@ -152,9 +150,12 @@ const makeContent = async (_type, _title, _url) => {
                 })
                 .on("error", function (error) {
                     console.log(error);
-                })
+                });
         }
-    })
+    });
+
+    alert('Only public agent can upload content!');
+    return;
 };
 
 const deleteContent = (_id) => {
