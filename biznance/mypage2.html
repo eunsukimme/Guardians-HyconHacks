@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Guardians</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendors/linericon/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+<header class="header_area">
+    <div class="main_menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <h1><a href="index.html" style="color: #777777; font-family: 'Poppins', sans-serif">Guardians</a></h1>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        </nav>
+    </div>
+</header>
+
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center" style="height: 500px">
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>My Page</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blog_area">
+    <div class="container">
+        <div class="banner_inner d-flex align-items-center" style="height: 200px">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""style="background-color: #a276ff" style="width:fit-content">
+            </div>
+            <div class="container">
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog_left_sidebar">
+                    <div class="innerBlock">
+
+                    </div>
+                    <nav class="blog-pagination justify-content-center d-flex"gi>
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a href="#" class="page-link" aria-label="Previous">
+		                                    <span aria-hidden="true">
+		                                        <span class="lnr lnr-chevron-left"></span>
+		                                    </span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a href="#" class="page-link">01</a></li>
+                            <li class="page-item active"><a href="#" class="page-link">02</a></li>
+                            <li class="page-item"><a href="#" class="page-link">03</a></li>
+                            <li class="page-item"><a href="#" class="page-link">04</a></li>
+                            <li class="page-item"><a href="#" class="page-link">09</a></li>
+                            <li class="page-item">
+                                <a href="#" class="page-link" aria-label="Next">
+		                                    <span aria-hidden="true">
+		                                        <span class="lnr lnr-chevron-right"></span>
+		                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog_right_sidebar">
+                    <aside class="single_sidebar_widget author_widget">
+                        <img class="author_img rounded-circle" src="img/seaulgi2.jpg" alt="" style="width: 50%; height: 50%;">
+                        <div id="user-profile">
+                            <h4>슬기</h4>
+                            <p>타입: 성</p>
+                        </div>
+                    </aside>
+                    <aside class="single-sidebar-widget tag_cloud_widget">
+                        <h4 class="widget_title">관심사</h4>
+                        <ul class="list">
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Architecture</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                            <li><a href="#">Art</a></li>
+                            <li><a href="#">Adventure</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                            <li><a href="#">Adventure</a></li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/stellar.js"></script>
+<script src="vendors/lightbox/simpleLightbox.min.js"></script>
+<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="vendors/isotope/isotope-min.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="vendors/jquery-ui/jquery-ui.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+<script src="vendors/counter-up/jquery.counterup.js"></script>
+<script src="js/theme.js"></script>
+<script language="javascript" type="text/javascript" src="../src/web3.min.js"></script>
+<script src="../src/contractABI.js"></script>
+<script src="../src/web3processing.js"></script>
+<script src="../src/main.js"></script>
+<script src="../src/loadContent.js"></script>
+<script type="text/javascript">
+    let type = {0:'여성', 1:'아동', 2:'노인', 3:'장애인',4:'저소득층'};
+    let timer = setTimeout(function(){
+        Promise.resolve(getUser()).then(function(user){
+            $('#user-profile').empty();
+            let _type = user.minType;
+            $('#user-profile').append(`<div class="user-profile">
+                                    <h4>${user.name}</h4>
+                                    <p>${type[_type]}</p>
+                                </div>`);
+        })
+    }, 1000);
+</script>
+</body>
+</html>

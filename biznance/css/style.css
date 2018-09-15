@@ -648,14 +648,14 @@ button:focus {
 .banner_area {
     position: relative;
     z-index: 1;
-    min-height: 300px;
+    min-height: 200px;
 }
 
 .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 300px;
+    min-height: 100px;
     background-image: -moz-linear-gradient(0deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
     background-image: -webkit-linear-gradient(0deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
     background-image: -ms-linear-gradient(0deg, #e187f0 0%, #f27fd3 33%, #a276ff 67%, #8889ff 100%);
