@@ -10,7 +10,6 @@ const startApp = () => {
         // 계정이 바뀌었는지 확인
         let currentAccount = await web3.eth.getAccounts().then(function(array) { return array[0] });
         checkCurrentUserAccount(currentAccount);
-
     }, 100);
 
 };
@@ -20,7 +19,6 @@ const checkCurrentUserAccount = (_currentAccount) => {
     if (_currentAccount !== userAccount) {
         userAccount = _currentAccount;
         // 새 계정에 대한 UI로 업데이트하기 위한 함수 호출
-        loadContents();
         // 유저의 존재 유무
         let isUserExist;
         Promise.resolve(checkUser()).then(result => {
@@ -32,7 +30,6 @@ const checkCurrentUserAccount = (_currentAccount) => {
                     currentUser = user;
                     //alert(currentUser.name);
                     console.log(`Hello, ${user.name}`);
-                    location.replace('mypage.html');
                 });
             } else {
                 // 유저가 존재하지 않는다면 가입을 권유한다
@@ -79,20 +76,21 @@ const getAllContentMatchWithUser = async () => {
     // 컨텐트들의 id가 담긴 배열
     let contentsIdx;
     await Promise.resolve(getContentByType(_type)).then(function(result){
-        console.log(_type);
+        //console.log(_type);
         console.log(result);
         contentsIdx = result;
     });
-    clearContent();
+
     for(let i = 0 ; i < contentsIdx.length ; i++){
         Promise.resolve(getContent(contentsIdx[i])).then(function(content){
             console.log(content);
-            updateContent(`<div class="content-card">
-    <p>content-id: ${content.id}</p>
-    <h2>제목: ${content.title}</h2>
-    <p>url: ${content.url}</p>
-    <p>타입: ${content.minType}</p>
-</div>`);
+            clearContent('blog_left_sidebar',i);
+            updateContent('blog_left_sidebar',i ,`<div class=blog-details>
+                                            <p>content-id: ${content.id}</p>
+                                            <a href=${content.url}><h2>${content.title}</h2></a>
+                                            <a href=${content.url} class=white_bg_btn>View More</a>
+                                            <p>타입: ${content.minType}</p>
+                                        </div>`);
         });
     }
 };
