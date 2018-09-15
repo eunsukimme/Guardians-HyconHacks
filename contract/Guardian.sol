@@ -10,17 +10,12 @@ contract Guardian is Ownable {
     /// @dev 여성(0), 아동(1), 노인(2), 장애인(3), 저소득층(4), 공무원(5)
     enum minorType { WOMAN, CHILD, ELDER, DISABLED, LOWINCOME, AGENT}
 
-    /// @dev 사용자가 신청한 복지 혜택 리스트
-    struct MyContentList {
-        uint[] ids;
-    }
-
     /// @dev 사회적 약자 사용자 정보 구조체
     struct Minority {
         address userAccount;
         uint8 minType;
         string name;
-        MyContentList myList;
+        uint[] myList;
     }
 
     /// @dev 사회복지사 정보 구조체
@@ -34,8 +29,8 @@ contract Guardian is Ownable {
     mapping(address => Minority) public addressToMinority;
     /// @dev 사용자를 저장하는 배열
     Minority[] public minorities;
-    /// @dev 비어있는 myList
-    MyContentList myList;
+    /// @dev 초기화된 배열
+    uint[] list;
     /// @dev 사용자들의 수
     uint public minorCount = 0;
 
@@ -44,7 +39,7 @@ contract Guardian is Ownable {
     /// @param _minType 유저의 사회적 약점 정보
     /// @param _name 유저의 이름
     function addUser(address _userAccount, uint8 _minType, string _name) public {
-        Minority memory minor = Minority(_userAccount, _minType, _name, myList);
+        Minority memory minor = Minority(_userAccount, _minType, _name, list);
         addressToMinority[_userAccount] = minor;
         minorities.push(minor);
         minorCount = minorCount.add(1);
@@ -66,4 +61,8 @@ contract Guardian is Ownable {
         }
     }
 
+    /// @dev 마음에 드는 콘텐츠 id를 myList에 추가한다
+    function addMyList(uint _id) public {
+        addressToMinority[msg.sender].myList.push(_id);
+    }
 }

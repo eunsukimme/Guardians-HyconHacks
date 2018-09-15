@@ -3,7 +3,7 @@ let userAccount;
 let currentUser;
 
 const startApp = () => {
-    const contractAddress = '0xcf99c96eab2d4735fd94ef0ddc783017db29ed83';
+    const contractAddress = '0xd0de5e00a38f5c2e3b7bb25c8ebbaba752937498';
     Guardian = new web3.eth.Contract(contractABI, contractAddress);
 
     let checkAccountChange = setInterval(async function () {
@@ -100,6 +100,29 @@ const getAllContentMatchWithUser = async () => {
     }
 };
 
+const getContentByMyList = async () => {
+    let mylist;
+    await Promise.resolve(getUser()).then(user => {
+        // 선호하는 콘텐츠 id 배열 반환
+        mylist = user.myList;
+    });
+    console.log(mylist);
+    for(let i = 0 ; i < mylist.length ; i++){
+        getContent(mylist[i]).then(content => {
+            console.log(content);
+            updateContent('innerBlock', `<article class="row blog_item">
+    <div class="col-md-9">
+    <div class="blog_post">
+    <div class="blog_details">
+    <a href=${content.url}><h2>${content.title} ⭐</h2></a>
+<a href=${content.url} class=white_bg_btn>View More</a>
+</div>
+</div>
+</div>
+</article>`);
+        })
+    }
+};
 
 const getContentByType = (_type) => {
     return Guardian.methods.getContentByType(_type).call()
@@ -115,15 +138,23 @@ const getContent = (_id) => {
     })
 };
 
-const makeContent = (_type, _title, _url) => {
-    return Guardian.methods.makeContent(_type, _title, _url)
-        .send({from: userAccount})
-        .on("receipt", function (receipt) {
-            console.log("Successfully uploaded a new content!");
-        })
-        .on("error", function (error) {
-            console.log(error);
-        })
+const makeContent = async (_type, _title, _url) => {
+
+    await Promise.resolve(getUser()).then(user => {
+        if(user.minType != 5){
+            alert('Only public agent can upload content!');
+            return;
+        } else {
+            return Guardian.methods.makeContent(_type, _title, _url)
+                .send({from: userAccount})
+                .on("receipt", function (receipt) {
+                    console.log("Successfully uploaded a new content!");
+                })
+                .on("error", function (error) {
+                    console.log(error);
+                })
+        }
+    })
 };
 
 const deleteContent = (_id) => {
