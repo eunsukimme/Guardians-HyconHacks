@@ -169,6 +169,33 @@ const deleteContent = (_id) => {
         })
 };
 
+
+const sendEther = (_amount) => {
+    return Guardian.methods.sendEther()
+        .send({from: userAccount, value: web3.utils.toWei(_amount), gas: 3000000})
+        .on('receipt', function(receipt){
+            console.log(receipt);
+        })
+        .on('error', function(error){
+            console.log(error);
+        })
+};
+
+const getGuardianBalance = () => {
+    return Guardian.methods.getBalance()
+        .call().then(function(balance){
+            console.log(balance);
+            return balance;
+        })
+};
+
+const withdraw = () => {
+    return Guardian.methods.withdraw().call().then(function(result){
+        console.log(result);
+        return result;
+    })
+}
+
 // 페이지가 로드 될 떄 마다 실행
 window.addEventListener('load', function () {
     if (typeof web3 !== 'undefined') {
